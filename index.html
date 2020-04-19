@@ -1,7 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>Mohini Vembusubramanian</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+/* Style the header */
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
 <body>
-<h1>Hello World, this is Mohini's website</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="header">
+  <h1>Mohini Vembusubramanian.</h1>
+</div>
+
+<div class="topnav">
+    <a href="https://mohvem.github.io">Home</a>
+     <a href="aboutme.html">Who I Am</a>
+      <a href="projects.html">What I Do</a>
+     <a href="contact.html">Contact Me</a>
+</div>
+
+<div class="row">
+  <div class="column">
+	  <img src = "mohini.jpg" width = "500" height = "500"></img>
+  </div>
+  <div class="column">
+    <h2>Hey, it's Mohini!</h2>
+    <p>Welcome to my website! This is my way of sharing my story,<br> with all the paths that I've taken, lessons that I've learned, and things<br> that I've accomplished.</br></br>Feel free to look around to learn more about me. If you're just looking<br> for my resume, I'll save you some time, and link it  <a href = "Mohini - Resume.pdf">here</a>!</p></br>
+  </div>
+</div>
+<footer>
+	<a href = "https://www.linkedin.com/in/mohini-vembusubramanian-050919bb/"><img src = "linkedin.png width = "50" height = "50" style ></img></a>
+</footer>
 </body>
 </html>
